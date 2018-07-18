@@ -13,7 +13,7 @@ public class MySqlConnection {
 		   con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","ankit");
 	   }
 	   catch(Exception e) {
-		   
+		   e.printStackTrace();
 	   }
 	   
 	   return con;

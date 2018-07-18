@@ -6,13 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="yellow">
-<h1> Welcome to Shopping Zone</h1>
-<form action="loginServlet.jsp">
-
-
-
-</form>
-
+<body>
+<form action="LoginServlet">
+User Id<input type="text" name="userName">
+Password<input type="password" name="password">
+<!--  First Name<input type="text" name="firstName">
+Last Name<input type="text" name="lastName">
+Contact Number<input type="text" name="contact"> -->
+<input type="submit" value="Login">
 </body>
 </html>
