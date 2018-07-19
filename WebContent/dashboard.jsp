@@ -6,13 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="aqua">
-<h1> Welcome to Shopping Zone</h1>
-<form action="loginServlet.jsp">
+<body>
 
-
-
-</form>
-
+<h1> Welcome <%= request.getParameter("userName")%>  </h1>
 </body>
 </html>

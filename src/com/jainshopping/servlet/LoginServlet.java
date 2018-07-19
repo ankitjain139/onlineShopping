@@ -22,7 +22,6 @@ public class LoginServlet extends HttpServlet{
 	      // Allocate a output writer to write the response message into the network socket
 	      PrintWriter out = response.getWriter();
 	      RequestDispatcher despatcher = null;
-		// @formatter:on
 
 	      
 	      String userName=request.getParameter("userName");
@@ -34,8 +33,10 @@ public class LoginServlet extends HttpServlet{
 	      if(isValidUser)
 	      {
 	    	  despatcher = request.getRequestDispatcher("/dashboard.jsp");
-	  		
 	    	  despatcher.forward(request, response);  
+			  request.setAttribute(userName, userName);
+			  //System.out.println(request.getAttribute(userName));
+
 	      }
 	      else
 	      {
