@@ -8,11 +8,16 @@
 </head>
 <body>
 <form action="LoginServlet">
+<fieldset>
+<legend> Enter your credentials</legend>
 User Id<input type="text" name="userName">
 Password<input type="password" name="password">
 <!--  First Name<input type="text" name="firstName">
 Last Name<input type="text" name="lastName">
 Contact Number<input type="text" name="contact"> -->
 <input type="submit" value="Login">
+
+</fieldset>
+</form>
 </body>
 </html>

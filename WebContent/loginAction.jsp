@@ -6,20 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body bgcolor="aqua">
-<h1> Welcome to Shopping Zone</h1>
-
-
-<a href="loginPage.jsp"> Login</a>
-<br><br>
-<a href="signup.jsp">Sign Up</a>
-
-
-<form action="loginServlet.jsp">
-
-
-
-</form>
+<body>
+Hi
 
 </body>
 </html>
